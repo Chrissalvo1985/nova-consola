@@ -1,0 +1,19 @@
+node_modules/
+client/node_modules/
+.env
+dist/
+client/dist/
+*.log
+.DS_Store
+runtime/
+
+# Secrets / junk outside the consola app
+OPENAI.ini
+*.xls
+*.xlsx
+*.txt
+!README.md
+!client/README.md
+!client/package-lock.json
+amneziawg-proxy-mikrotik-wireguard-warp/
+byedpi-hev-socks5-tunnel-mikro/
